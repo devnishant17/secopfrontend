@@ -10,10 +10,15 @@ const MedicalArticles = () => {
     const [blogs, setBlogs] = useState([]);
 
     useEffect(() => {
-        axios.get("http://localhost:5000/api/blog").then((res) => {
-            setBlogs(res.data);
-            console.log(res.data);
-        });
+        // Replace local URL with Render backend URL
+        axios.get("https://secopbackend.onrender.com/api/blog")
+            .then((res) => {
+                setBlogs(res.data);
+                console.log(res.data);
+            })
+            .catch((err) => {
+                console.error("Error fetching blogs:", err);
+            });
     }, []);
 
     return (

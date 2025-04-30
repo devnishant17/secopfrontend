@@ -45,7 +45,7 @@ function AdminDashboard() {
     const token = localStorage.getItem("token");
 
     try {
-      await axios.post("http://localhost:5000/api/blog", formData, {
+      await axios.post("https://secopbackend.onrender.com/api/blog", formData, {
         headers: {
           Authorization: `Bearer ${token}`,
           "Content-Type": "multipart/form-data",
@@ -77,7 +77,7 @@ document.querySelectorAll('input[type="file"]').forEach((input) => {
 });
 
       // Refresh blog list
-      const res = await axios.get("http://localhost:5000/api/blog");
+      const res = await axios.get("https://secopbackend.onrender.com/api/blog");
       setBlogs(res.data);
 
       // Show toast
@@ -89,7 +89,7 @@ document.querySelectorAll('input[type="file"]').forEach((input) => {
   };
 
   useEffect(() => {
-    axios.get("http://localhost:5000/api/blog").then((res) => {
+    axios.get("https://secopbackend.onrender.com/api/blog").then((res) => {
       setBlogs(res.data);
     });
   }, []);

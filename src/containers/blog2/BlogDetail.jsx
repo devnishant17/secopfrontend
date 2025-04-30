@@ -10,7 +10,7 @@ const BlogDetail = () => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:5000/api/blog/${title}`)
+      .get(`https://secopbackend.onrender.com/api/blog/${title}`)
       .then((res) => {
         setBlog(res.data);
       })
