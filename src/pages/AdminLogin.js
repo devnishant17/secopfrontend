@@ -42,12 +42,7 @@ function AdminLogin() {
             <div className="card" style={{ borderRadius: "1rem" }}>
               <div className="row g-0">
                 <div className="col-md-6 col-lg-5 d-none d-md-block">
-                  {/* <img
-                    src="https://images.unsplash.com/photo-1642975967602-653d378f3b5b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fG1lZGljYWwlMjBsb2dpbnxlbnwwfHwwfHx8MA%3D%3D"
-                    alt="login form"
-                    className="img-fluid"
-                    style={{ borderRadius: "1rem 0 0 1rem" }}
-                  /> */}
+
                 </div>
                 <div className="col-md-6 col-lg-7 d-flex align-items-center">
                   <div className="card-body p-4 p-lg-5 text-black">
