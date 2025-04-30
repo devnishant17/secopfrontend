@@ -1,11 +1,14 @@
 import { useEffect } from "react";
-import { withRouter } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
-const NavScrollTop = (props) => {
+const NavScrollTop = ({ children }) => {
+    const location = useLocation();
+
     useEffect(() => {
         window.scrollTo(0, 0);
-    });
-    return props.children;
+    }, [location.pathname]); // scrolls on route change
+
+    return children;
 };
 
-export default withRouter(NavScrollTop);
+export default NavScrollTop;

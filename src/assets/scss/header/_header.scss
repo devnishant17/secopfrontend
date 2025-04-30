@@ -60,8 +60,6 @@
     margin-bottom: -50px;
     align-self: self-start;
 
-
-
     @include max-screen(991) {
         margin: 20px 0; // Adjust margins for mobile
         margin-top: 100px;
@@ -72,8 +70,6 @@
 .header-logo2 {
     align-self: self-start;
     margin-bottom: -50px;
-
-
 
     @include max-screen(991) {
         margin: 20px 0; // Adjust margins for mobile
@@ -344,7 +340,7 @@
                 }
             }
         }
-    }  
+    }
 }
 
 .mobile-sticky.sticky {
@@ -357,6 +353,6 @@
         z-index: 11;
         transition: all 0.3s;
         animation: fadeInDown 0.5s ease-in-out;
-        box-shadow: 0 8
+        box-shadow: 0 8;
     }
 }

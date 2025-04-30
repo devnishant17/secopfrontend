@@ -18,8 +18,8 @@ const cancer = () => {
                     <div className="main-content site-wrapper-reveal">
                         <PageTitleContainer
                             image="img/slider/12.jpg"
-                            subTitle="Knoow More"
-                            title="Oncology <span></span>"
+                            subTitle="Know More"
+                            title="Cancer <span></span>"
                         />
                         <Cancers />
                         <Whychooseus />

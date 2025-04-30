@@ -6,6 +6,7 @@ import Footer from "../layouts/footer";
 import BlogListContainer from "../containers/blog/blog-list/index.jsx";
 import ScrollToTop from "../components/scroll-to-top";
 import SEO from "../components/seo";
+import MedicalArticles from "../containers/blog2/blog2.jsx";
 
 const BlogPage = () => {
     return (
@@ -14,16 +15,7 @@ const BlogPage = () => {
                 <SEO title="Second Opinion – Blogs and news" />
                 <div className="wrapper">
                     <Header />
-                    <div className="main-content site-wrapper-reveal">
-                        <Breadcrumb
-                            classOptionOne="content-style3"
-                            classOptionTwo="bread-crumbs-style2"
-                            prevs={[{ text: "Home", path: "/" }]}
-                            contentThree="Knowledge Base"
-                            title="<span>Latest From</span> Knowledge"
-                        />
-                        <BlogListContainer />
-                    </div>
+                    <MedicalArticles />
                     <Footer />
                     <ScrollToTop />
                 </div>

@@ -131,3 +131,4 @@ const Blogdetail2 = () => {
 };
 
 export default Blogdetail2;
+
