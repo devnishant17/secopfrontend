@@ -24,6 +24,7 @@ const HomePage = () => {
                 <div className="wrapper home-default-wrapper">
                     <Header />
                 <div className="main-content site-wrapper-reveal">
+                <Counter />
                 <IntroContainer />
                       <Counter />
                       <Whoweare />
