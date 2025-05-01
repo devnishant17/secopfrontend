@@ -159,7 +159,7 @@ const Header = () => {
                                 </a>
                             </li>
                             <li className="mb-3">
-                                <a href="/services" className="btn btn-outline-dark w-100">
+                                <a href="/service" className="btn btn-outline-dark w-100">
                                     SERVICES
                                 </a>
                             </li>
@@ -179,8 +179,8 @@ const Header = () => {
                                 </a>
                             </li>
                             <li className="mb-3">
-                                <a href="/faqs" className="btn btn-outline-dark w-100">
-                                    FAQS
+                                <a href="/faq" className="btn btn-outline-dark w-100">
+                                    FAQ
                                 </a>
                             </li>
                             <li>

@@ -36,9 +36,6 @@ const HomePage = () => {
                       <Whychooseus />
                       <CallToAction />
                       <BlogAccordion />
-                   
-                      
-
                     </div>
                     <Footer />
                     <ScrollToTop />

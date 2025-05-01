@@ -29,7 +29,7 @@ const Footer = () => {
                             <Link to="/blog">Blog & News</Link>
                         </li>
                         <li>
-                            <Link to="/howitwork">How it Works</Link>
+                            <Link to="/how-it-works">How it Works</Link>
                         </li>
                         <li>
                             <Link to="/contact">Contact</Link>
